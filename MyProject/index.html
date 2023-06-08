@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    
+  </head>
+  <body>
+
+    <div class="scrollToTop-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+
+    <header>
+      <a href="#" class="brand"><img width="250" src="images/logo.png" alt="#" /></a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <a href="#main">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">Products</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <section class="main" id="main">
+      <div class="content">
+        <h2 style="color:#f7444e;">Sale 20% Off <br><span>On Everything</span></h2>
+        <div class="animated-text">
+          <h3>Fast Delivery</h3>
+          <h3>Free Shipping</h3>
+          <h3>Best Quality</h3>
+        </div>
+        <a href="#" class="btn">Shop Now</a>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="title reveal">
+        <h2 class="section-title">About Us</h2>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <div class="img-card">
+            <img src="images/new.jpg" alt="">
+          </div>
+        </div>
+        <div class="column col-right reveal">
+          <h2 class="content-title">Why Shop With Us</h2>
+          <p class="paragraph-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="services" id="services">
+      <div class="title reveal">
+        <h2 class="section-title">Our Services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="content">
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa fa-shopping-cart" style="color: orange;"></i>
+          </div>
+          <div class="info">
+            <h3>FAST DELIVERY</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa fa-shopping-bag" style="color: white;"></i>
+          </div>
+          <div class="info">
+            <h3>FREE SHIPPING</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa fa-shopping-basket" style="color: red;"></i>
+          </div>
+          <div class="info">
+            <h3>BEST QUALITY</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="title reveal">
+        <h2 class="section-title">Our Products</h2>
+      </div>
+      <div class="content">
+        <div class="card reveal">
+          <div class="card-img">
+           <a href="#productGrid"><img id="category1" alt="" onclick="myFunctionCallData('smartphones');"> </a>       
+          </div>
+         <div class="detail-box">
+          <h2 style="color:#f7444e; text-align: center;">SmartPhones</h2>
+          <h6 style="color:#f7444e; text-align: center;">
+               Starts From  $80
+            </h6>
+         </div>
+
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+             <a href="#productGrid"><img id ="category2" alt="" onclick="myFunctionCallData('laptops');">  </a>        
+          </div>
+          <div class="detail-box">
+            <h2 style="color:#f7444e; text-align: center;">Laptops</h2>
+            <h6 style="color:#f7444e; text-align: center;">
+                 Starts From  $100
+              </h6>
+           </div>
+  
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <a href="#productGrid"><img id ="category3" alt="" onclick="myFunctionCallData('fragrances');">  </a>        
+          </div>
+          <div class="detail-box">
+            <h2 style="color:#f7444e; text-align: center;">Fragrances</h2>
+            <h6 style="color:#f7444e; text-align: center;">
+                 Starts From  $80
+              </h6>
+           </div>
+  
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <a href="#productGrid"><img id ="category4" alt="" onclick=" myFunctionCallData('skincare');">  </a>        
+          </div>
+          <div class="detail-box">
+            <h2 style="color:#f7444e; text-align: center;">Skin Care</h2>
+            <h6 style="color:#f7444e; text-align: center;">
+                 Starts From  $50
+              </h6>
+           </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <a href="#productGrid"><img id ="category5" alt="" onclick="myFunctionCallData('groceries');">  </a>        
+          </div>
+          <div class="detail-box">
+            <h2 style="color:#f7444e; text-align: center;">Groceries</h2>
+            <h6 style="color:#f7444e; text-align: center;">
+                 Starts From  $40
+              </h6>
+           </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <a href="#productGrid"><img id ="category6" alt="" onclick="myFunctionCallData('home-decoration');">  </a>        
+          </div>
+          <div class="detail-box">
+            <h2 style="color:#f7444e; text-align: center;">Home Decoration</h2>
+            <h6 style="color:#f7444e; text-align: center;">
+                 Starts From  $10
+              </h6>
+           </div>
+        </div>
+        <div class="title reveal">
+          <a href="#" class="btn">See All</a>
+        </div>
+      </div>
+    </section>
+    <section id="productGrid" >  
+      <section class="section product-details-section">
+        <h2 id="product-details" class="section-title">Product Details</h2>
+        <div class="content">
+          <div class="card reveal slider " id="slider" >
+
+          </div>
+          </div>
+          <div id="product-content" style="text-align: center;">
+
+        <h3 id="product-title"></h3>
+        <p id="product-description" class="description">
+        </p>
+        <h3 id="product-price" class="product-price"></h3>
+        <button id="buy-btn" class="action-btn" style="background-color:red;">Buy</button>
+  
+
+          </div>
+             
+      </section>    
+  </section>
+
+    <section class="contact" id="contact">
+      <div class="title reveal">
+        <h2 class="section-title">Contact Us</h2>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info">
+              <h3>Address</h3>
+              <span>Address, City, Country</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="info">
+              <h3>Phone</h3>
+              <span>+00 0000 000 000</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h3>Email Address</h3>
+              <span>contact@email.com</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <div class="info">
+              <h3>Website</h3>
+              <span>mywebsite.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact-form reveal">
+            <h3>Send Message</h3>
+            <form method="post">
+              <div class="input-box">
+              <input type="text" name="" value="" placeholder="Enter your full Name" id="name" required>
+            </div>
+            <div class="input-box">
+              <input type="email" placeholder="Enter your email address" name="email" id ="email" required />
+
+            </div>
+            <div class="input-box">
+              <textarea name="name" rows="8" cols="80" placeholder="Enter your Message" id="message" required></textarea>
+            </div>
+            <div class="input-box">
+              <input type="submit" class="send-btn" name="" value="Send">
+            </div>
+          </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="footer">
+      <span class="footer-title">famms</span>
+      <p>Copyright @<span id="year"></span>. All Rights Reserved.</p>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+
+
+    <script src="script.js" charset="utf-8"></script>
+
+
+  </body>
+</html>
